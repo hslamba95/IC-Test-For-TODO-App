@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "test-app-backend": {
+      "candid": "src/test-app-backend/test-app-backend.did",
+      "package": "test-app-backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
