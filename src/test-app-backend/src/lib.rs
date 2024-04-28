@@ -16,6 +16,7 @@ impl Todo {
 
 // Global variable to store TODO items
 static mut TODOS: Vec<Todo> = Vec::new();
+static mut GLOBAL_INT: i32 = 0;
 
 // Function to generate a random ID for a TODO item
 fn generate_random_id() -> String {
